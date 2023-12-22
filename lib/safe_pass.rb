@@ -7,7 +7,8 @@ module SafePass
   # The main class
   class Main
     def self.entry_point
-      Entry.new('file').call
+      sarif_file = ARGV.first
+      Entry.new(sarif_file).call
     end
   end
 
