@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-require "safe_pass"
+require_relative "../lib/safe_pass"
+
+SafePass::Main.entry_point
