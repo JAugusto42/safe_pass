@@ -2,4 +2,4 @@
 
 require_relative "../lib/safe_pass"
 
-SafePass::Main.entry_point
+SafePass::CLI.start
